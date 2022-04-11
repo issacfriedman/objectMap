@@ -1,5 +1,5 @@
 {
-  "name": "objectmap",
+  "name": "@issac/objectmap",
   "version": "1.0.0",
   "description": "A  map  Function for objects returns a new deep copy witch you can change by the callback function the same as Array.prototype.map",
   "main": "index.js",
