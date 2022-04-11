@@ -1,0 +1,28 @@
+{
+  "name": "objectmap",
+  "version": "1.0.0",
+  "description": "A  map  Function for objects returns a new deep copy witch you can change by the callback function the same as Array.prototype.map",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/issacfriedman/objectMap.git"
+  },
+  "keywords": [
+    "deepcopy",
+    "object",
+    "clone",
+    "object",
+    "map",
+    "new",
+    "object"
+  ],
+  "author": "Issac Friedman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/issacfriedman/objectMap/issues"
+  },
+  "homepage": "https://github.com/issacfriedman/objectMap#readme"
+}
