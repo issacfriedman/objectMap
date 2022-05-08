@@ -9,7 +9,7 @@ const objectMap = (obj, callback) => {
 
   // if its an object then loop the object
   // init new object
-  const newObject = Array.isArray(obj) ? [] : {};
+  const newObject = Array.isArray(obj) ? [] : Object.create(obj.__proto__);
   for (key in obj) {
     // recursive case
     newObject[key] = objectMap(obj[key], callback);
